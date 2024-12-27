@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ModalPopToRootIssue.FourthPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Background="Purple"
+    Shell.PresentationMode="Modal">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0" Spacing="25">
+
+            <Label Style="{StaticResource SubHeadline}" Text="Fourth Page" />
+
+            <Button Clicked="Button_Clicked" Text="Go To Fifth Page" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
